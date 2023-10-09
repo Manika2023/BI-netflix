@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&family=Roboto:wght@100;300&display=swap');
+
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+}
+
+.flex{
+     display: flex;
+     align-items: center;
+}
+a{
+     text-decoration: none;
+}
+.content{
+font-size: 1.1rem;
+}
+.primarybtn{
+     width: 123px;
+     height: 32px;
+     color: white;
+     padding:18px 30px;
+     text-align: center;
+     font-size: 15px;
+     border: 1px solid rgb(75, 71, 71);
+}
+.primarybtn:hover{
+     border: 2px solid orangered;
+}
+.secondarybtn{
+     width: 75px;
+     height: 32px;
+     padding: 18px 30px;
+     border-radius: 6px;
+     background: orangered;
+     color: white;
+     font-size: 15px;
+}
+.bar{
+     background: #353232;
+     height: 12px;
+     width: 100vw;
+}
+body{
+     background: #000;
+}
+h1{
+     color: white;
+     font-size: 3rem;
+}
+h2{
+     color: white;
+     font-size: 1.5rem;   
+}
+hr{
+     color:  rgb(75, 71, 71);
+     background: rgb(75, 71, 71);
+}
+/* navbar */
+
+.navbar{
+justify-content: space-between;
+position: relative;
+top: 3rem;
+left: 0;
+/* margin-top: 6rem; */
+}
+.container{
+     overflow: hidden;
+     margin: 23px;
+}
+.nav-links{
+margin-right:5rem;
+gap: 14px;
+}
+.nav-links .pbtn{
+     display:flex;
+}
+.nav-links .pbtn a i{
+   margin-left: 3rem;
+}
+.logo img{
+     width: 150px;
+     height: 40px;
+}
+.center{
+     text-align: center;
+     color: #fff;
+}
+
+/* hero */
+.hero-container{
+     /* content: " "; */
+     background-image:linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.7)),url('./image/hero.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     height: 100vh;
+     width: 100%;
+    
+}
+.hero-content{
+     position: relative;
+     margin-top: 11rem;
+     margin-left: 13rem;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     height:240px;
+     width: 907px;
+     color: white;
+     display: flex;
+     flex-direction: column;
+     gap: 13px;
+}
+.hero-container input{
+     padding:6px 70px;
+     background: none;
+     font-size: 27px;
+     color: white;
+     font-weight: 300;
+ border: 1px solid  rgb(75, 71, 71);
+
+ }
+ .hero-btn{
+     padding: 16px 20px;
+     font-size: 20px;
+ }
+/* second-section */
+
+.about{
+     background: #000;
+     height: 90vh;
+     width: 100%;
+}
+.about-container{
+     flex-direction: column;
+}
+.about-image img{
+     width: 500px;
+     height: 373px;
+}
+.about-content{
+   text-align: center;
+   margin-bottom: 10rem;
+}
+
+/* question */
+ .faq-container {
+     max-width: 800px;
+     margin: 0 auto;
+     padding: 20px;
+     background-color: #000;
+     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+ }
+ 
+ h1 {
+     text-align: center;
+     color: #fff;
+ }
+ 
+ .faq-list {
+     list-style: none;
+     padding: 0;
+ }
+ 
+ .question {
+     color: #fff;
+     font-weight: bold;
+     cursor: pointer;
+     width: 100%;
+     background: #353232;
+     margin: 12px;
+     padding: 27px 10px;
+ }
+ .question i{
+     color: #fff;
+     font-size: 1rem;
+ }
+ .answer {
+     display: none;
+     color: #fff;
+     margin: 12px;
+     width: 100%;
+     padding:27px 10px;
+     background:  #353232;
+ }
+
+.toggle-icon{
+      font-size: 4rem;
+     float: right;
+     cursor: pointer;
+ }
+
+ /*  */
+ .ready-container{
+     /* margin-left: 11rem; */
+     align-items: center;
+     justify-content: center;
+     display: flex;
+     flex-direction: column;
+     color: #fff;
+     gap: 32px;
+ }
+ .ready-input{
+     height: 58px;
+     padding: 12px;
+     background-color: black;
+     color: #fff;
+     font-size: 1.6rem;
+     border: 1px solid rgb(75, 71, 71);
+     width: 500px;
+ }
+
+ footer{
+     color: #fff;
+     margin-top:6rem;
+     margin-bottom: 8rem;
+ }
+ footer h3{
+     margin-bottom: 2rem;
+     margin-left: 12rem;
+ }
+.footerbox{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     gap: 6px;
+     margin-left: 10rem;
+     /* align-items: center; */
+}
+.footerbox a{
+     width: 160px;
+     color: #fff;
+     text-decoration: underline;
+}
+.footerbtn{
+     position: absolute;
+     margin-top: 2rem;
+     text-decoration: none !important;
+     border: 1px solid rgb(75, 71, 71);
+}
+.findia{
+     position: absolute;
+     margin-top: 5rem; 
+     text-decoration: none !important;
+}
